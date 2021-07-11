@@ -1,0 +1,13 @@
+<div class="product-card" >
+    <div class="image">
+        <img src={{product.image_addr}} alt="">
+        </div>
+    <div class="Details">
+        <div class="name">{{product.name}}</div>
+        <div class="description">{{product.description}}</div>
+    </div>    
+    <div class="delete-btn">
+        <button class="btn" (click)="delete(product.id)">Delete</button>
+    </div>
+
+</div>

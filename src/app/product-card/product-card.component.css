@@ -1,0 +1,18 @@
+.product-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.image img {
+    height: 75px;
+    width: 75px;
+}
+.delete-btn {
+    display: flex;
+    align-items: flex-end;
+}

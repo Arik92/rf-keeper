@@ -1,0 +1,21 @@
+.product-details {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.name-container, .description-container, .price-container {
+    display:flex;
+    flex-direction: column;
+}
+.detail-img img {
+    height: 200px;
+    width:200px;
+}

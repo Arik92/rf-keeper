@@ -1,0 +1,23 @@
+<div class="product-details">
+    <div class="detail-header">
+        Add a new product
+    </div>    
+    <form [formGroup]="detailForm" class="form" (ngSubmit)="addProduct()">
+        <div class="name-container">
+          <label for="productName">Name:</label>
+          <input id="productName" formControlName="nameControl" type="text" name="name" required>                
+        </div>
+        <div class="description-container">
+            <label for="productDesc">Description</label>
+            <textarea id="producDesc" formControlName="descControl" type="text" name="desc">                
+                </textarea>
+          </div>
+          <div class="price-container">
+            <label for="productPrice">Price</label>
+            <input id="productPrice" formControlName="priceControl" type="text" name="price" required>                
+          </div>
+       
+        <button class="btn add-btn" type="submit" [disabled]="!detailForm.valid">Submit</button>
+      </form>
+
+</div>

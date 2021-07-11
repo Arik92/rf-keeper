@@ -1,0 +1,12 @@
+.header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(81, 132, 161);
+}
+.store-title {
+    position:absolute;
+    left: 5%;
+    top: 0
+
+}

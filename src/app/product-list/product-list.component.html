@@ -1,0 +1,11 @@
+<div class="product-list">
+    <div class="ui-controls">
+        <button class="btn add-btn" (click)="newProduct()">+ Add</button>
+        Sort by: 
+        <button class="btn sort-btn" (click)="sortByDate()">Date</button>
+        <button class="btn sort-btn" (click)="sortByName()">Name</button>
+    </div>
+    <div class="list">
+        <app-product-card *ngFor="let product of productDisplay" [product]="product" (click)="selectProduct(product.id)"></app-product-card>
+    </div>
+</div>

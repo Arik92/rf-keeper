@@ -1,0 +1,26 @@
+.product-list {
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+.ui-controls {
+    margin-left: 2.5%;
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list {
+    height: 80%;
+    overflow-y: auto;
+    margin-top: 10%;
+}
+.sort-btn {       
+background-color: rgb(18, 22, 21);
+border: 1px solid rgb(204, 0, 255);         
+}
